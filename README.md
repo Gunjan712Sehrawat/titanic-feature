@@ -17,3 +17,17 @@ Steps performed:
 - One-hot encoding for categorical variables
 - Feature scaling (excluding the 'survived' target)
 - Quick logistic regression model training/evaluation
+
+
+## Models and Evaluation
+This project uses:
+- **Linear Regression**: Evaluated using MSE, R², and classification accuracy (threshold=0.5).
+- **Decision Tree Classifier**: Evaluated using accuracy, confusion matrix, and classification report.
+
+### Summary of Results
+| Model             | MSE     | R²     | Accuracy |
+|-------------------|---------|--------|----------|
+| Linear Regression | X.XXXX  | X.XXXX | X.XXXX   |
+| Decision Tree     |   -     |   -    | X.XXXX   |
+
+The Decision Tree outperformed Linear Regression for classification.
